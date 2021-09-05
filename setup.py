@@ -11,10 +11,15 @@ setup(
    long_description=long_description,
    author='Atul Rai',
    author_email='iamatul1214@gmail.com',
-   url="",
-   packages=['NanDealer'],  #same as name
+   url="https://github.com/iamatul1214/NanDealer",
+   packages=['NanDealer'], #same as name
    install_requires=['pandas'], #external packages as dependencies
    classifiers=[
-       "programming language :: Python :: 3.6 and above"],
+       "License :: OSI Approved :: MIT License",
+       "programming language :: Python :: 3.6",
+       "programming language :: Python :: 3.7",
+       "programming language :: Python :: 3.8",
+       "programming language :: Python :: 3.9"
+   ],
 
 )
