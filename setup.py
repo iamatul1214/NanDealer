@@ -15,7 +15,7 @@ setup(
    # packages=['NanDealer'], #same as name
     packages=['NanDealer'],
     #No requirement of external packages as dependencies
-    classifiers=['Programing language :: Python :: 3.8']
+    classifiers=[]
 
 
 )

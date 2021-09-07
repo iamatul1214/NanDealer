@@ -1,5 +1,5 @@
 
-from src.NanDealer import nanDealer as nd
+from NanDealer.NanHandler import nanDealer as nd
 import pandas as pd
 df=pd.read_csv("C://Users//atulkumarrai//Batsmen_data.csv")
 nd=nd()
