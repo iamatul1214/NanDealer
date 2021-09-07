@@ -1,17 +1,13 @@
 Metadata-Version: 2.1
 Name: NanDealer
-Version: 1.0
+Version: 1.0.1
 Summary: A library which can deal with Nan values in a dataframe
 Home-page: https://github.com/iamatul1214/NanDealer
 Author: Atul Rai
 Author-email: iamatul1214@gmail.com
 License: MIT
 Platform: UNKNOWN
-Classifier: License :: OSI Approved :: MIT License
-Classifier: programming language :: Python :: 3.6
-Classifier: programming language :: Python :: 3.7
-Classifier: programming language :: Python :: 3.8
-Classifier: programming language :: Python :: 3.9
+Classifier: Programing language :: Python :: 3.8
 License-File: LICENSE
 
 # NanDealer 

@@ -4,5 +4,6 @@ setup.py
 NanDealer.egg-info/PKG-INFO
 NanDealer.egg-info/SOURCES.txt
 NanDealer.egg-info/dependency_links.txt
-NanDealer.egg-info/requires.txt
 NanDealer.egg-info/top_level.txt
+src/NanDealer.py
+src/__init__.py
