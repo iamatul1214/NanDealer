@@ -11,7 +11,7 @@ step 3: Pass your dataframe to the Nan values handling methods of nanDealer clas
 step 4: You will receive a dataframe with Nan values converted according to the method used and the dataframe will be free from all categorical columns.\
 Step 5: If your dataframe does not have any Nan values, then no modification will happen in your dataframe apart from removal of categorical data.
 
-##You can see the example of that in Test.py class by navigating to github.
+## You can see the example of that in Test.py class by navigating to github.
 
 ## License
 MIT License
