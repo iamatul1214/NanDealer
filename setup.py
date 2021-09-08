@@ -16,7 +16,7 @@ setup(
     packages=['NanDealer'],
     #No requirement of external packages as dependencies
     classifiers=['Programming Language :: Python :: 3.8',
-                 'Intended audience :: Developers',
+                 'Intended Audience :: Developers',
                  'License :: OSI Approved :: MIT License']
 
 
