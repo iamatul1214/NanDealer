@@ -1,5 +1,6 @@
 LICENSE
 README.md
+setup.cfg
 setup.py
 NanDealer/NanHandler.py
 NanDealer/__init__.py
