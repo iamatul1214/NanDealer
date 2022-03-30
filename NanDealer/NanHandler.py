@@ -204,6 +204,30 @@ class nanDealer:
             raise Exception(f"Error occured while filling the Nan values with mean {str(e)} ")
 
 
+    def fillModeinCategoricalMeanInNumerical(self,dataframe):
+        try:
+            dataframe.fillna(dataframe.select_dtypes(include='object').mode().iloc[0], inplace=True)
+            
+            dataframe.fillna(dataframe.select_dtypes(include='number').mode().iloc[0], inplace=True)
+        except Exception as e:
+            raise Exception(f"Error occured while filling the Nan values of numerical columns with Mean and categorical with Mode {str(e)} ")
+
+    
+    def fillModeinCategoricalMedianInNumerical(self,dataframe):
+        try:
+            dataframe.fillna(dataframe.select_dtypes(include='object').mode().iloc[0], inplace=True)
+            
+            dataframe.fillna(dataframe.select_dtypes(include='number').median().iloc[0], inplace=True)
+        except Exception as e:
+            raise Exception(f"Error occured while filling the Nan values of numerical columns with median and categorical column with mode {str(e)} ")
+
+
+################################################################################
+# work on clustering algorithm to fill the Nan values with
+################################################################################
+
+
+
 
 
 if __name__=="__main__":
